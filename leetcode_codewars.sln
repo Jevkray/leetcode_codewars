@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCodeTask14", "leetcode\LeetCodeTask14.csproj", "{C49CFDD0-BA94-4C5D-9DDA-1172FD00608B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task14L", "leetcode\Task14L.csproj", "{C49CFDD0-BA94-4C5D-9DDA-1172FD00608B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "leetcode_template", "leetcode_template\leetcode_template.csproj", "{BE468C1A-81A9-496E-A3BD-87F61F280643}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCodeTask9", "LeetCodeTask9\LeetCodeTask9.csproj", "{9A797CBB-6F41-43D2-9641-759D944EA38C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task9L", "LeetCodeTask9\Task9L.csproj", "{9A797CBB-6F41-43D2-9641-759D944EA38C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "codewars1", "codewars1\codewars1.csproj", "{BAD65B5D-E94A-4589-B537-390141999D48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task1C", "codewars1\Task1C.csproj", "{BAD65B5D-E94A-4589-B537-390141999D48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
