@@ -5,7 +5,7 @@ public class LeetCodeTask
 {
     public static void Main()
     {
-
+        WhichAreIn.inArray(new string[] { "arp", "live", "strong" }, new string[] { "arp", "live", "strong" });
     }
 }
 
@@ -20,7 +20,7 @@ public class WhichAreIn
             {
                 if ((array2[j].Contains(array1[i])) && !(array3.Any(array1[i].Contains)))
                 {
-                    array3[array3.Length] = array1[i];
+                    array3[0] = array1[0];
                 }
             }
         }
