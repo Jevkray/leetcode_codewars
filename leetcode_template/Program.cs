@@ -13,19 +13,9 @@ public class WhichAreIn
 {
     public static string[] inArray(string[] array1, string[] array2)
     {
-        string[] array3 = new string[0];
-        for (int i = 0; i < array1.Length; i++)
-        {
-            for (int j = 0; j < array2.Length; j++)
-            {
-                if ((array2[j].Contains(array1[i])) && !(array3.Any().Equals(array1[i])))
-                {
-                    Array.Resize(ref array3, array3.Length + 1);
-                    array3[array3.Length - 1] = array1[i];
-                    array3 = array3.Distinct().ToArray();
-                }
-            }
-        }
-        return array3;
+        var x = array1.Where(s1 => array2.Any(s2 => s2.Contains(s1))).OrderBy(s => s).ToArray();
+        return x;
     }
 }
+
+//Вывод один- учить LINQ
