@@ -5,7 +5,7 @@ public class LeetCodeTask
 {
     public static void Main()
     {
-        Console.WriteLine(string.Join(", ", (WhichAreIn.inArray(new string[] { "ar", "code", "war", "lively", "war" }, new string[] { "lively", "alive", "harp", "ar", "war", "desme" }))));
+        Console.WriteLine(string.Join(", ", (WhichAreIn.inArray(new string[] { "cod", "code", "wars", "ewar" }, new string[] { "lively", "alive", "harp", "sharp", "armstrong", "codewars" }))));
     }
 }
 
