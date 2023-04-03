@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using System;
 
-public class LeetCodeTask
+public class Program
 {
     public static void Main()
     {
