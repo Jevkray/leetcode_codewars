@@ -1,4 +1,4 @@
-﻿public class Program
+﻿public class LeetCodeTask3
 {
     public static void Main()
     {
