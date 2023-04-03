@@ -23,6 +23,7 @@
                 }
                 else if (currsub.Contains(s[i]))
                 {
+                    i = i - (currsub.Length - 1);
                     currsub = s[i].ToString();
                 }
             }
