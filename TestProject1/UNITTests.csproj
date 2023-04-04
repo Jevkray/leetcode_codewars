@@ -19,6 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CW6\CW6.csproj" />
     <ProjectReference Include="..\CW7\CW7.csproj" />
+    <ProjectReference Include="..\CW8\CW8.csproj" />
   </ItemGroup>
 
 </Project>
