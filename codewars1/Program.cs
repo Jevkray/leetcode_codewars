@@ -9,8 +9,12 @@
     {
         public static string Disemvowel(string str)
         {
-            string v = str.Trim(new char[] { 'A', 'E', 'I', 'O', 'U', 'a', 'i', 'o', 'u' });
-            return v;
+            string[] charsToRemove = new string[] { "A", "E", "I", "O", "U", "a", "e", "i", "o", "u" };
+            foreach (var c in charsToRemove)
+            {
+                str = str.Replace(c, null);
+            }
+            return str;
         }
     }
 
