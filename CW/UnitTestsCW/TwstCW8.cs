@@ -1,4 +1,4 @@
-﻿namespace TestCW8
+﻿namespace UNITTests
 {
     [TestFixture]
     public class BasicTests

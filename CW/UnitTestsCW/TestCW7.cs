@@ -1,4 +1,4 @@
-﻿namespace TestCW7
+﻿namespace UNITTests
 {
     using NUnit.Framework;
     using System;

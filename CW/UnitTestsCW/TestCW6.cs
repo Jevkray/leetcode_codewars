@@ -1,5 +1,5 @@
-namespace TestCW6
-{ 
+namespace UNITTests
+{
     using System;
     using NUnit.Framework;
 
