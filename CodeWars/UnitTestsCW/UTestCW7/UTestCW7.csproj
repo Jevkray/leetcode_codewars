@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CodeWars\CW7\CW7.csproj" />
+    <ProjectReference Include="..\..\CW7\CW7.csproj" />
   </ItemGroup>
 
 </Project>
