@@ -1,31 +1,34 @@
 ﻿using System.Linq;
 using System;
 
-public class LeetCodeTask
+namespace Solution
 {
-    public static void Main()
+    public class LeetCodeTask
     {
-        Console.WriteLine(string.Join(", ", (WhichAreIn.inArray(new string[] { "cod", "code", "wars", "ewar" }, new string[] { "lively", "alive", "harp", "sharp", "armstrong", "codewars" }))));
-    }
-}
-
-public class WhichAreIn
-{
-    public static string[] inArray(string[] array1, string[] array2)
-    {
-        string[] array3 = new string[0];
-        for (int i = 0; i < array1.Length; i++)
+        public static void Main()
         {
-            for (int j = 0; j < array2.Length; j++)
+            Console.WriteLine(string.Join(", ", (WhichAreIn.inArray(new string[] { "cod", "code", "wars", "ewar" }, new string[] { "lively", "alive", "harp", "sharp", "armstrong", "codewars" }))));
+        }
+    }
+
+    public class WhichAreIn
+    {
+        public static string[] inArray(string[] array1, string[] array2)
+        {
+            string[] array3 = new string[0];
+            for (int i = 0; i < array1.Length; i++)
             {
-                if ((array2[j].Contains(array1[i])) && !(array3.Any().Equals(array1[i])))
+                for (int j = 0; j < array2.Length; j++)
                 {
-                    Array.Resize(ref array3, array3.Length + 1);
-                    array3[array3.Length - 1] = array1[i];
-                    array3 = array3.Distinct().ToArray();
+                    if ((array2[j].Contains(array1[i])) && !(array3.Any().Equals(array1[i])))
+                    {
+                        Array.Resize(ref array3, array3.Length + 1);
+                        array3[array3.Length - 1] = array1[i];
+                        array3 = array3.Distinct().ToArray();
+                    }
                 }
             }
+            return array3;
         }
-        return array3;
     }
 }
