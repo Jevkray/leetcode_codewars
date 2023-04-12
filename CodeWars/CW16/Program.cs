@@ -7,7 +7,7 @@ namespace Solution
     {
         public static void Main()
         {
-            Console.WriteLine(Kata.CountCombinations(23, new int[] { 2, 3, 4, 5, 6, 1, 8, 9, 12, 15 }));
+            Console.WriteLine(Kata.CountCombinations(43, new int[] {  3, 7,8,9 }));
         }
     }
 
