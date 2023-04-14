@@ -2,7 +2,7 @@
 {
     public static void Main()
     {
-        Console.WriteLine(Kata.Maskify("asdsfadgfhsgbvcncxbg354etra"));
+        Console.WriteLine(Kata.Maskify("asdsfadgfsgbvcncxbg354etra"));
     }
 
     public static class Kata

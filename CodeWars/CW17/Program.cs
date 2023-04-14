@@ -7,7 +7,7 @@ namespace Solution
     {
         public static void Main()
         {
-            Console.WriteLine(Kata.DuplicateCount("AAABB"));
+            Console.WriteLine(Kata.DuplicateCount("AA12BB"));
         }
     }
 
